@@ -92,7 +92,12 @@ if (Meteor.isClient) {
   // Load google charts
 
   loadScript('https://www.gstatic.com/charts/loader.js', function(){
-    google.charts.load('current', {'packages': packages});
+    if(settings.hasOwnProperty("mapsApiKey")){
+      google.charts.load('current', {'packages': packages, 'mapsApiKey': settings.mapsApiKey});
+    }else{
+      google.charts.load('current', {'packages': packages});
+    }
+    
     google.charts.setOnLoadCallback(function(){
 
       googleChartsIsReady = true
