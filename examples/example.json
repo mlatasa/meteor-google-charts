@@ -1,6 +1,6 @@
 {
 	"public": {
-		"rafaelhdr-google-charts": {
+		"mlatasa-google-charts": {
 			"packages": ["corechart", "timeline", "gauge", "map"]
 		}
 	}

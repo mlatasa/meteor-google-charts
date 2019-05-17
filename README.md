@@ -7,7 +7,7 @@ Anyone who want help is very welcome.
 ## Getting started
 Installation:
 ```
-meteor add rafaelhdr:google-charts
+meteor add mlatasa:google-charts
 ```
 
 ## Example

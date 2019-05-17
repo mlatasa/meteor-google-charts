@@ -52,7 +52,7 @@ if (Meteor.isClient) {
 
   // Packages load. By default, load ['corechart', 'timeline', 'gauge']
   // Define packages (as described in documentation) for different packages
-  var settings = Meteor.settings.public['rafaelhdr-google-charts']
+  var settings = Meteor.settings.public['mlatasa-google-charts']
   var packages
   if (typeof settings == 'undefined' || settings.packages == "undefined") {
     packages = ['corechart', 'timeline', 'gauge']
